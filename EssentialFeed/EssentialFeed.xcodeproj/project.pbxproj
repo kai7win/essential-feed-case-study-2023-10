@@ -15,6 +15,7 @@
 		DE06593F2AE3720000431F39 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06593E2AE3720000431F39 /* HTTPClient.swift */; };
 		DE0659412AE3724D00431F39 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0659402AE3724D00431F39 /* FeedItemsMapper.swift */; };
 		DE0659442AE38A1400431F39 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0659432AE38A1400431F39 /* URLSessionHTTPClientTests.swift */; };
+		DE0659472AE3A93C00431F39 /* trackForMemoryLeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0659462AE3A93C00431F39 /* trackForMemoryLeaks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		DE06593E2AE3720000431F39 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		DE0659402AE3724D00431F39 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		DE0659432AE38A1400431F39 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
+		DE0659462AE3A93C00431F39 /* trackForMemoryLeaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackForMemoryLeaks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		DE0659282AE29F5D00431F39 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE0659452AE3A91F00431F39 /* Helpers */,
 				DE0659422AE3749F00431F39 /* Feed API */,
 			);
 			path = EssentialFeedTests;
@@ -119,6 +122,14 @@
 				DE0659432AE38A1400431F39 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
+			sourceTree = "<group>";
+		};
+		DE0659452AE3A91F00431F39 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE0659462AE3A93C00431F39 /* trackForMemoryLeaks.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0659472AE3A93C00431F39 /* trackForMemoryLeaks.swift in Sources */,
 				DE06593A2AE2A40100431F39 /* RemoteFeedLoaderTests.swift in Sources */,
 				DE0659442AE38A1400431F39 /* URLSessionHTTPClientTests.swift in Sources */,
 			);
