@@ -118,8 +118,8 @@
 		DE0659282AE29F5D00431F39 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE2C56682B18ACF900EC8FEA /* Feed Cache */,
 				DE0659452AE3A91F00431F39 /* Helpers */,
+				DE2C56682B18ACF900EC8FEA /* Feed Cache */,
 				DE0659422AE3749F00431F39 /* Feed API */,
 			);
 			path = EssentialFeedTests;
