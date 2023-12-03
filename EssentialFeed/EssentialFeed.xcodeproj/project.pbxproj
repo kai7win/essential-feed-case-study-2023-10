@@ -22,6 +22,7 @@
 		DE0659582AE3B50000431F39 /* trackForMemoryLeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0659462AE3A93C00431F39 /* trackForMemoryLeaks.swift */; };
 		DE2C566A2B18AD1700EC8FEA /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C56692B18AD1700EC8FEA /* CacheFeedUseCaseTests.swift */; };
 		DE2C566D2B1C5D5F00EC8FEA /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C566C2B1C5D5F00EC8FEA /* LocalFeedLoader.swift */; };
+		DE2C566F2B1C5E2300EC8FEA /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2C566E2B1C5E2300EC8FEA /* FeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		DE0659592AE3B55200431F39 /* CI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI.xctestplan; sourceTree = "<group>"; };
 		DE2C56692B18AD1700EC8FEA /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		DE2C566C2B1C5D5F00EC8FEA /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
+		DE2C566E2B1C5E2300EC8FEA /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				DE2C566C2B1C5D5F00EC8FEA /* LocalFeedLoader.swift */,
+				DE2C566E2B1C5E2300EC8FEA /* FeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				DE0659412AE3724D00431F39 /* FeedItemsMapper.swift in Sources */,
 				DE0659372AE2A00400431F39 /* FeedLoader.swift in Sources */,
 				DE06593D2AE32CCA00431F39 /* RemoteFeedLoader.swift in Sources */,
+				DE2C566F2B1C5E2300EC8FEA /* FeedStore.swift in Sources */,
 				DE2C566D2B1C5D5F00EC8FEA /* LocalFeedLoader.swift in Sources */,
 				DE06593F2AE3720000431F39 /* HTTPClient.swift in Sources */,
 				DE0659352AE29FC200431F39 /* FeedItem.swift in Sources */,
