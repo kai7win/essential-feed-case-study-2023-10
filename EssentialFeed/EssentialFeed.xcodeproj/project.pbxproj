@@ -197,8 +197,8 @@
 		DE2C566B2B1C5D4800EC8FEA /* Feed Cache */ = {
 			isa = PBXGroup;
 			children = (
-				DE2C566E2B1C5E2300EC8FEA /* FeedStore.swift */,
 				DE2C56722B1C68FF00EC8FEA /* LocalFeedImage.swift */,
+				DE2C566E2B1C5E2300EC8FEA /* FeedStore.swift */,
 				DE2C566C2B1C5D5F00EC8FEA /* LocalFeedLoader.swift */,
 			);
 			path = "Feed Cache";
