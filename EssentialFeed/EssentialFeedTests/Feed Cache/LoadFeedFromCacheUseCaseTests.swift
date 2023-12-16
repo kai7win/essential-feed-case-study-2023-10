@@ -89,7 +89,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
     }
     
     
-    func test_load_doesNotDeleteCacheOnLessThanSevenDaysOldCache(){
+    func test_load_hasNosideEffectsOnLessThanSevenDaysOldCache(){
         
         let feed = uniqueImageFeed()
         let fixedCurrentDate = Date()
