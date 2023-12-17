@@ -31,6 +31,7 @@
 		DE7C26AA2B2E6A0500E6B61A /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26A92B2E6A0500E6B61A /* SharedTestHelpers.swift */; };
 		DE7C26AD2B2E6A3100E6B61A /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26AC2B2E6A3100E6B61A /* FeedCacheTestHelpers.swift */; };
 		DE7C26AF2B2E8D2D00E6B61A /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26AE2B2E8D2D00E6B61A /* FeedCachePolicy.swift */; };
+		DE7C26B12B2E9A4800E6B61A /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26B02B2E9A4800E6B61A /* CodableFeedStoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		DE7C26A92B2E6A0500E6B61A /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		DE7C26AC2B2E6A3100E6B61A /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		DE7C26AE2B2E8D2D00E6B61A /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
+		DE7C26B02B2E9A4800E6B61A /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 				DE2C56692B18AD1700EC8FEA /* CacheFeedUseCaseTests.swift */,
 				DE7C26A72B2E5E9900E6B61A /* ValidateFeedCacheUseCaseTests.swift */,
 				DE2C56742B1C6DC100EC8FEA /* LoadFeedFromCacheUseCaseTests.swift */,
+				DE7C26B02B2E9A4800E6B61A /* CodableFeedStoreTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7C26B12B2E9A4800E6B61A /* CodableFeedStoreTests.swift in Sources */,
 				DE7C26A82B2E5E9900E6B61A /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				DE0659472AE3A93C00431F39 /* trackForMemoryLeaks.swift in Sources */,
 				DE06593A2AE2A40100431F39 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
