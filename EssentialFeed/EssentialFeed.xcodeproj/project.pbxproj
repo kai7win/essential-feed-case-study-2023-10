@@ -32,6 +32,7 @@
 		DE7C26AD2B2E6A3100E6B61A /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26AC2B2E6A3100E6B61A /* FeedCacheTestHelpers.swift */; };
 		DE7C26AF2B2E8D2D00E6B61A /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26AE2B2E8D2D00E6B61A /* FeedCachePolicy.swift */; };
 		DE7C26B12B2E9A4800E6B61A /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26B02B2E9A4800E6B61A /* CodableFeedStoreTests.swift */; };
+		DE7C26B32B30271B00E6B61A /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26B22B30271B00E6B61A /* CodableFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		DE7C26AC2B2E6A3100E6B61A /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		DE7C26AE2B2E8D2D00E6B61A /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		DE7C26B02B2E9A4800E6B61A /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
+		DE7C26B22B30271B00E6B61A /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				DE2C566E2B1C5E2300EC8FEA /* FeedStore.swift */,
 				DE2C566C2B1C5D5F00EC8FEA /* LocalFeedLoader.swift */,
 				DE7C26AE2B2E8D2D00E6B61A /* FeedCachePolicy.swift */,
+				DE7C26B22B30271B00E6B61A /* CodableFeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				DE2C56732B1C68FF00EC8FEA /* LocalFeedImage.swift in Sources */,
 				DE2C566D2B1C5D5F00EC8FEA /* LocalFeedLoader.swift in Sources */,
 				DE2C56712B1C68AE00EC8FEA /* RomoteFeedItem.swift in Sources */,
+				DE7C26B32B30271B00E6B61A /* CodableFeedStore.swift in Sources */,
 				DE06593F2AE3720000431F39 /* HTTPClient.swift in Sources */,
 				DE0659352AE29FC200431F39 /* FeedImage.swift in Sources */,
 				DE0659492AE3B18600431F39 /* URLSessionHTTPClient.swift in Sources */,
