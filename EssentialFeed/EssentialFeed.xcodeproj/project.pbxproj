@@ -39,6 +39,7 @@
 		DE7C26BB2B30FDB300E6B61A /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26BA2B30FDB300E6B61A /* XCTestCase+FailableInsertFeedStoreSpecs.swift */; };
 		DE7C26BD2B30FFA600E6B61A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26BC2B30FFA600E6B61A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */; };
 		DE7C26C02B3121B500E6B61A /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26BF2B3121B500E6B61A /* CoreDataFeedStoreTests.swift */; };
+		DE7C26C22B3122AC00E6B61A /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26C12B3122AC00E6B61A /* CoreDataFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		DE7C26BA2B30FDB300E6B61A /* XCTestCase+FailableInsertFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableInsertFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		DE7C26BC2B30FFA600E6B61A /* XCTestCase+FailableDeleteFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableDeleteFeedStoreSpecs.swift"; sourceTree = "<group>"; };
 		DE7C26BF2B3121B500E6B61A /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
+		DE7C26C12B3122AC00E6B61A /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 				DE2C566C2B1C5D5F00EC8FEA /* LocalFeedLoader.swift */,
 				DE7C26AE2B2E8D2D00E6B61A /* FeedCachePolicy.swift */,
 				DE7C26B22B30271B00E6B61A /* CodableFeedStore.swift */,
+				DE7C26C12B3122AC00E6B61A /* CoreDataFeedStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				DE06593F2AE3720000431F39 /* HTTPClient.swift in Sources */,
 				DE0659352AE29FC200431F39 /* FeedImage.swift in Sources */,
 				DE0659492AE3B18600431F39 /* URLSessionHTTPClient.swift in Sources */,
+				DE7C26C22B3122AC00E6B61A /* CoreDataFeedStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
