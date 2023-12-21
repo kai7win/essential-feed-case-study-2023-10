@@ -7,7 +7,7 @@
 
 import CoreData
 
-internal extension NSPersistentContainer {
+extension NSPersistentContainer {
     
     enum LoadError: Swift.Error {
         case modelNotFound
