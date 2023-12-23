@@ -13,6 +13,8 @@
 		DEB574B02B379A0C007CBC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB574AF2B379A0C007CBC30 /* Assets.xcassets */; };
 		DEB574B32B379A0C007CBC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB574B12B379A0C007CBC30 /* LaunchScreen.storyboard */; };
 		DEB574BB2B379C82007CBC30 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB574BA2B379C82007CBC30 /* FeedViewController.swift */; };
+		DEB574BD2B379CFB007CBC30 /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB574BC2B379CFB007CBC30 /* FeedImageViewModel+PrototypeData.swift */; };
+		DEB574BF2B379D8B007CBC30 /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB574BE2B379D8B007CBC30 /* FeedImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DEB574B22B379A0C007CBC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEB574B42B379A0C007CBC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEB574BA2B379C82007CBC30 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DEB574BC2B379CFB007CBC30 /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
+		DEB574BE2B379D8B007CBC30 /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DEB574A82B379A0B007CBC30 /* SceneDelegate.swift */,
 				DEB574AC2B379A0B007CBC30 /* Main.storyboard */,
 				DEB574BA2B379C82007CBC30 /* FeedViewController.swift */,
+				DEB574BC2B379CFB007CBC30 /* FeedImageViewModel+PrototypeData.swift */,
+				DEB574BE2B379D8B007CBC30 /* FeedImageCell.swift */,
 				DEB574AF2B379A0C007CBC30 /* Assets.xcassets */,
 				DEB574B12B379A0C007CBC30 /* LaunchScreen.storyboard */,
 				DEB574B42B379A0C007CBC30 /* Info.plist */,
@@ -141,6 +147,8 @@
 				DEB574A72B379A0B007CBC30 /* AppDelegate.swift in Sources */,
 				DEB574BB2B379C82007CBC30 /* FeedViewController.swift in Sources */,
 				DEB574A92B379A0B007CBC30 /* SceneDelegate.swift in Sources */,
+				DEB574BD2B379CFB007CBC30 /* FeedImageViewModel+PrototypeData.swift in Sources */,
+				DEB574BF2B379D8B007CBC30 /* FeedImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
