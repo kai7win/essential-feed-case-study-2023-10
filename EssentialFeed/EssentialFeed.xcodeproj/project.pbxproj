@@ -112,6 +112,7 @@
 		DE7C26CD2B316C4300E6B61A /* ManagedFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedFeedImage.swift; sourceTree = "<group>"; };
 		DE7C26E22B31702800E6B61A /* EssentialFeedCacheIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedCacheIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7C26E42B31702800E6B61A /* EssentialFeedCacheIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedCacheIntegrationTests.swift; sourceTree = "<group>"; };
+		DEB574C02B37E04E007CBC30 /* EssentialFeedAPIEndToEndTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedAPIEndToEndTests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +153,7 @@
 		DE0659122AE29F5D00431F39 = {
 			isa = PBXGroup;
 			children = (
+				DEB574C02B37E04E007CBC30 /* EssentialFeedAPIEndToEndTests.xctestplan */,
 				DE0659592AE3B55200431F39 /* CI.xctestplan */,
 				DE06591E2AE29F5D00431F39 /* EssentialFeed */,
 				DE0659282AE29F5D00431F39 /* EssentialFeedTests */,
