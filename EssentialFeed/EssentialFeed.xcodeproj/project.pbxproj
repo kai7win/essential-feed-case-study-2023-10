@@ -59,6 +59,7 @@
 		DEB574F22B3FF351007CBC30 /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB574F12B3FF351007CBC30 /* UIButton+TestHelpers.swift */; };
 		DEB574F42B3FF3B6007CBC30 /* UIControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB574F32B3FF3B6007CBC30 /* UIControl+TestHelpers.swift */; };
 		DEB574FA2B3FF497007CBC30 /* FeedViewController+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB574F92B3FF497007CBC30 /* FeedViewController+TestHelpers.swift */; };
+		DEB574FC2B3FF4D4007CBC30 /* FeedImageCell+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB574FB2B3FF4D4007CBC30 /* FeedImageCell+TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		DEB574F12B3FF351007CBC30 /* UIButton+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TestHelpers.swift"; sourceTree = "<group>"; };
 		DEB574F32B3FF3B6007CBC30 /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		DEB574F92B3FF497007CBC30 /* FeedViewController+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewController+TestHelpers.swift"; sourceTree = "<group>"; };
+		DEB574FB2B3FF4D4007CBC30 /* FeedImageCell+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageCell+TestHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,6 +443,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB574F92B3FF497007CBC30 /* FeedViewController+TestHelpers.swift */,
+				DEB574FB2B3FF4D4007CBC30 /* FeedImageCell+TestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -763,6 +766,7 @@
 				DEB574FA2B3FF497007CBC30 /* FeedViewController+TestHelpers.swift in Sources */,
 				DEB574DE2B3A9AFB007CBC30 /* trackForMemoryLeaks.swift in Sources */,
 				DEB574EE2B3FF288007CBC30 /* UIImage+TestHelpers.swift in Sources */,
+				DEB574FC2B3FF4D4007CBC30 /* FeedImageCell+TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
