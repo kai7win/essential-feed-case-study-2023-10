@@ -75,6 +75,7 @@
 		DEB5751F2B42EDE9007CBC30 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */; };
 		DEB575212B42EEC3007CBC30 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575202B42EEC3007CBC30 /* UIImageView+Animations.swift */; };
 		DEB575232B4300F8007CBC30 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEB575222B4300F8007CBC30 /* Feed.strings */; };
+		DEB575252B430181007CBC30 /* FeedViewControllerTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575242B430181007CBC30 /* FeedViewControllerTests+Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +184,7 @@
 		DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		DEB575202B42EEC3007CBC30 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
 		DEB575222B4300F8007CBC30 /* Feed.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Feed.strings; sourceTree = "<group>"; };
+		DEB575242B430181007CBC30 /* FeedViewControllerTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewControllerTests+Localization.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,6 +484,7 @@
 				DEB574FB2B3FF4D4007CBC30 /* FeedImageCell+TestHelpers.swift */,
 				DEB574FD2B3FF53B007CBC30 /* FeedViewControllerTests+LoaderSpy.swift */,
 				DEB574FF2B3FF5CD007CBC30 /* FeedViewControllerTests+Assertions.swift */,
+				DEB575242B430181007CBC30 /* FeedViewControllerTests+Localization.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -867,6 +870,7 @@
 				DEB574DE2B3A9AFB007CBC30 /* trackForMemoryLeaks.swift in Sources */,
 				DEB574EE2B3FF288007CBC30 /* UIImage+TestHelpers.swift in Sources */,
 				DEB574FC2B3FF4D4007CBC30 /* FeedImageCell+TestHelpers.swift in Sources */,
+				DEB575252B430181007CBC30 /* FeedViewControllerTests+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
