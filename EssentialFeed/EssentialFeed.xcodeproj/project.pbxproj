@@ -76,6 +76,7 @@
 		DEB575212B42EEC3007CBC30 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575202B42EEC3007CBC30 /* UIImageView+Animations.swift */; };
 		DEB575252B430181007CBC30 /* FeedUIIntegrationTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575242B430181007CBC30 /* FeedUIIntegrationTests+Localization.swift */; };
 		DEB575262B4303B8007CBC30 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEB575282B4303B8007CBC30 /* Feed.strings */; };
+		DEB5752D2B430475007CBC30 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5752C2B430475007CBC30 /* FeedLocalizationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +188,7 @@
 		DEB575272B4303B8007CBC30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Feed.strings; sourceTree = "<group>"; };
 		DEB575292B4303EE007CBC30 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
 		DEB5752A2B430428007CBC30 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
+		DEB5752C2B430475007CBC30 /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,6 +426,7 @@
 		DEB574D12B37E238007CBC30 /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				DEB5752B2B430461007CBC30 /* Feed Presentation */,
 				DEB575022B3FF6A4007CBC30 /* Feed UI */,
 			);
 			path = EssentialFeediOSTests;
@@ -518,6 +521,14 @@
 				DEB575162B4052CF007CBC30 /* FeedLoadingViewModel.swift */,
 				DEB575182B4052FC007CBC30 /* FeedViewModel.swift */,
 				DEB575282B4303B8007CBC30 /* Feed.strings */,
+			);
+			path = "Feed Presentation";
+			sourceTree = "<group>";
+		};
+		DEB5752B2B430461007CBC30 /* Feed Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5752C2B430475007CBC30 /* FeedLocalizationTests.swift */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -850,6 +861,7 @@
 			files = (
 				DEB574DD2B3A9699007CBC30 /* FeedUIIntegrationTests.swift in Sources */,
 				DEB575002B3FF5CD007CBC30 /* FeedUIIntegrationTests+Assertions.swift in Sources */,
+				DEB5752D2B430475007CBC30 /* FeedLocalizationTests.swift in Sources */,
 				DEB574F22B3FF351007CBC30 /* UIButton+TestHelpers.swift in Sources */,
 				DEB574F02B3FF2F0007CBC30 /* UIRefreshControl+TestHelpers.swift in Sources */,
 				DEB574F42B3FF3B6007CBC30 /* UIControl+TestHelpers.swift in Sources */,
