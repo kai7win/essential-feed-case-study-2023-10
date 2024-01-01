@@ -72,6 +72,7 @@
 		DEB575192B4052FC007CBC30 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575182B4052FC007CBC30 /* FeedViewModel.swift */; };
 		DEB5751B2B40F665007CBC30 /* Feed.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB5751A2B40F665007CBC30 /* Feed.xcassets */; };
 		DEB5751D2B40F691007CBC30 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB5751C2B40F691007CBC30 /* Feed.storyboard */; };
+		DEB5751F2B42EDE9007CBC30 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,6 +178,7 @@
 		DEB575182B4052FC007CBC30 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		DEB5751A2B40F665007CBC30 /* Feed.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Feed.xcassets; sourceTree = "<group>"; };
 		DEB5751C2B40F691007CBC30 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -454,6 +456,7 @@
 				DEB574E32B3E3092007CBC30 /* UIView+Shimmering.swift */,
 				DEB5751A2B40F665007CBC30 /* Feed.xcassets */,
 				DEB5751C2B40F691007CBC30 /* Feed.storyboard */,
+				DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -830,6 +833,7 @@
 				DEB575132B403CDC007CBC30 /* FeedPresenter.swift in Sources */,
 				DEB575042B3FF823007CBC30 /* FeedImageDataLoader.swift in Sources */,
 				DEB575192B4052FC007CBC30 /* FeedViewModel.swift in Sources */,
+				DEB5751F2B42EDE9007CBC30 /* UITableView+Dequeueing.swift in Sources */,
 				DEB575172B4052CF007CBC30 /* FeedLoadingViewModel.swift in Sources */,
 				DEB574E42B3E3092007CBC30 /* UIView+Shimmering.swift in Sources */,
 				DEB575152B404FD8007CBC30 /* FeedImagePresenter.swift in Sources */,
