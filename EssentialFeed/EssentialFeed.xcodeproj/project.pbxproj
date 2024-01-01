@@ -74,6 +74,7 @@
 		DEB5751D2B40F691007CBC30 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB5751C2B40F691007CBC30 /* Feed.storyboard */; };
 		DEB5751F2B42EDE9007CBC30 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */; };
 		DEB575212B42EEC3007CBC30 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575202B42EEC3007CBC30 /* UIImageView+Animations.swift */; };
+		DEB575232B4300F8007CBC30 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEB575222B4300F8007CBC30 /* Feed.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,7 @@
 		DEB5751C2B40F691007CBC30 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		DEB575202B42EEC3007CBC30 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
+		DEB575222B4300F8007CBC30 /* Feed.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Feed.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -526,6 +528,7 @@
 				DEB575142B404FD8007CBC30 /* FeedImagePresenter.swift */,
 				DEB575162B4052CF007CBC30 /* FeedLoadingViewModel.swift */,
 				DEB575182B4052FC007CBC30 /* FeedViewModel.swift */,
+				DEB575222B4300F8007CBC30 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -751,6 +754,7 @@
 			files = (
 				DEB5751D2B40F691007CBC30 /* Feed.storyboard in Resources */,
 				DEB5751B2B40F665007CBC30 /* Feed.xcassets in Resources */,
+				DEB575232B4300F8007CBC30 /* Feed.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
