@@ -470,13 +470,13 @@
 		DEB574F62B3FF42D007CBC30 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DEB575382B43F574007CBC30 /* ErrorView.swift */,
 				DEB574E12B3BB772007CBC30 /* FeedImageCell.swift */,
 				DEB574E32B3E3092007CBC30 /* UIView+Shimmering.swift */,
 				DEB575202B42EEC3007CBC30 /* UIImageView+Animations.swift */,
 				DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */,
 				DEB5751A2B40F665007CBC30 /* Feed.xcassets */,
 				DEB5751C2B40F691007CBC30 /* Feed.storyboard */,
-				DEB575382B43F574007CBC30 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
