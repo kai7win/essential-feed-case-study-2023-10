@@ -86,6 +86,8 @@
 		DEB5753C2B43F70C007CBC30 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753B2B43F70C007CBC30 /* FeedErrorViewModel.swift */; };
 		DEB5753E2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753D2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift */; };
 		DEB575402B43F978007CBC30 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753F2B43F978007CBC30 /* FeedPresenterTests.swift */; };
+		DEB575412B44025B007CBC30 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26AC2B2E6A3100E6B61A /* FeedCacheTestHelpers.swift */; };
+		DEB575422B44030E007CBC30 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C26A92B2E6A0500E6B61A /* SharedTestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -904,6 +906,8 @@
 			files = (
 				DEB575402B43F978007CBC30 /* FeedPresenterTests.swift in Sources */,
 				DEB574DD2B3A9699007CBC30 /* FeedUIIntegrationTests.swift in Sources */,
+				DEB575422B44030E007CBC30 /* SharedTestHelpers.swift in Sources */,
+				DEB575412B44025B007CBC30 /* FeedCacheTestHelpers.swift in Sources */,
 				DEB575002B3FF5CD007CBC30 /* FeedUIIntegrationTests+Assertions.swift in Sources */,
 				DEB5752D2B430475007CBC30 /* FeedLocalizationTests.swift in Sources */,
 				DEB574F22B3FF351007CBC30 /* UIButton+TestHelpers.swift in Sources */,
