@@ -79,6 +79,7 @@
 		DEB5752D2B430475007CBC30 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5752C2B430475007CBC30 /* FeedLocalizationTests.swift */; };
 		DEB5752F2B43E35F007CBC30 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5752E2B43E35F007CBC30 /* MainQueueDispatchDecorator.swift */; };
 		DEB575312B43E58D007CBC30 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575302B43E58D007CBC30 /* WeakRefVirtualProxy.swift */; };
+		DEB575332B43E7C7007CBC30 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575322B43E7C7007CBC30 /* FeedImageDataLoaderPresentationAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +194,7 @@
 		DEB5752C2B430475007CBC30 /* FeedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLocalizationTests.swift; sourceTree = "<group>"; };
 		DEB5752E2B43E35F007CBC30 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 		DEB575302B43E58D007CBC30 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
+		DEB575322B43E7C7007CBC30 /* FeedImageDataLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,6 +514,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB5750B2B400031007CBC30 /* FeedUIComposer.swift */,
+				DEB575322B43E7C7007CBC30 /* FeedImageDataLoaderPresentationAdapter.swift */,
 				DEB575302B43E58D007CBC30 /* WeakRefVirtualProxy.swift */,
 				DEB5752E2B43E35F007CBC30 /* MainQueueDispatchDecorator.swift */,
 			);
@@ -857,6 +860,7 @@
 				DEB5752F2B43E35F007CBC30 /* MainQueueDispatchDecorator.swift in Sources */,
 				DEB574E02B3B7E32007CBC30 /* FeedViewController.swift in Sources */,
 				DEB574E22B3BB772007CBC30 /* FeedImageCell.swift in Sources */,
+				DEB575332B43E7C7007CBC30 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				DEB575112B4037D0007CBC30 /* FeedImageViewModel.swift in Sources */,
 				DEB575092B3FFBFF007CBC30 /* FeedImageCellController.swift in Sources */,
 				DEB5750C2B400031007CBC30 /* FeedUIComposer.swift in Sources */,
