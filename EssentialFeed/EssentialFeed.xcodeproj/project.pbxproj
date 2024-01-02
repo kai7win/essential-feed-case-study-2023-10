@@ -90,6 +90,7 @@
 		DEB5754C2B440598007CBC30 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5754B2B440598007CBC30 /* FeedPresenter.swift */; };
 		DEB5754E2B44062E007CBC30 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753F2B43F978007CBC30 /* FeedPresenterTests.swift */; };
 		DEB5754F2B440651007CBC30 /* Feed.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEB575472B44046B007CBC30 /* Feed.strings */; };
+		DEB575512B4406B5007CBC30 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575502B4406B5007CBC30 /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +216,7 @@
 		DEB575482B44046C007CBC30 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Feed.strings; sourceTree = "<group>"; };
 		DEB575492B44046D007CBC30 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Feed.strings"; sourceTree = "<group>"; };
 		DEB5754B2B440598007CBC30 /* FeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenter.swift; sourceTree = "<group>"; };
+		DEB575502B4406B5007CBC30 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -581,6 +583,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB5754B2B440598007CBC30 /* FeedPresenter.swift */,
+				DEB575502B4406B5007CBC30 /* FeedViewModel.swift */,
 				DEB575472B44046B007CBC30 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
@@ -844,6 +847,7 @@
 				DE2C566F2B1C5E2300EC8FEA /* FeedStore.swift in Sources */,
 				DE7C26C52B31251000E6B61A /* FeedStore.xcdatamodeld in Sources */,
 				DE2C56732B1C68FF00EC8FEA /* LocalFeedImage.swift in Sources */,
+				DEB575512B4406B5007CBC30 /* FeedViewModel.swift in Sources */,
 				DE2C566D2B1C5D5F00EC8FEA /* LocalFeedLoader.swift in Sources */,
 				DE2C56712B1C68AE00EC8FEA /* RomoteFeedItem.swift in Sources */,
 				DE06593F2AE3720000431F39 /* HTTPClient.swift in Sources */,
