@@ -90,6 +90,7 @@
 		DEB575582B440977007CBC30 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5752C2B430475007CBC30 /* FeedLocalizationTests.swift */; };
 		DEB5755A2B4409B7007CBC30 /* FeedImagePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575592B4409B7007CBC30 /* FeedImagePresenterTests.swift */; };
 		DEB5755C2B445D47007CBC30 /* FeedImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5755B2B445D47007CBC30 /* FeedImagePresenter.swift */; };
+		DEB5755E2B445D91007CBC30 /* FeedImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5755D2B445D91007CBC30 /* FeedImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +214,7 @@
 		DEB575542B440758007CBC30 /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
 		DEB575592B4409B7007CBC30 /* FeedImagePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenterTests.swift; sourceTree = "<group>"; };
 		DEB5755B2B445D47007CBC30 /* FeedImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenter.swift; sourceTree = "<group>"; };
+		DEB5755D2B445D91007CBC30 /* FeedImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -569,6 +571,7 @@
 				DEB575502B4406B5007CBC30 /* FeedViewModel.swift */,
 				DEB575522B44071D007CBC30 /* FeedLoadingViewModel.swift */,
 				DEB575542B440758007CBC30 /* FeedErrorViewModel.swift */,
+				DEB5755D2B445D91007CBC30 /* FeedImageViewModel.swift */,
 				DEB575472B44046B007CBC30 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
@@ -829,6 +832,7 @@
 				DE0659412AE3724D00431F39 /* FeedItemsMapper.swift in Sources */,
 				DE0659372AE2A00400431F39 /* FeedLoader.swift in Sources */,
 				DE06593D2AE32CCA00431F39 /* RemoteFeedLoader.swift in Sources */,
+				DEB5755E2B445D91007CBC30 /* FeedImageViewModel.swift in Sources */,
 				DE7C26AF2B2E8D2D00E6B61A /* FeedCachePolicy.swift in Sources */,
 				DE2C566F2B1C5E2300EC8FEA /* FeedStore.swift in Sources */,
 				DE7C26C52B31251000E6B61A /* FeedStore.xcdatamodeld in Sources */,
