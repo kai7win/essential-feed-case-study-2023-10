@@ -84,6 +84,7 @@
 		DEB575372B43E913007CBC30 /* FeedViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575362B43E913007CBC30 /* FeedViewAdapter.swift */; };
 		DEB575392B43F574007CBC30 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575382B43F574007CBC30 /* ErrorView.swift */; };
 		DEB5753C2B43F70C007CBC30 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753B2B43F70C007CBC30 /* FeedErrorViewModel.swift */; };
+		DEB5753E2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753D2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +204,7 @@
 		DEB575362B43E913007CBC30 /* FeedViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewAdapter.swift; sourceTree = "<group>"; };
 		DEB575382B43F574007CBC30 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		DEB5753B2B43F70C007CBC30 /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
+		DEB5753D2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -556,6 +558,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB574E32B3E3092007CBC30 /* UIView+Shimmering.swift */,
+				DEB5753D2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift */,
 				DEB575202B42EEC3007CBC30 /* UIImageView+Animations.swift */,
 				DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */,
 			);
@@ -871,6 +874,7 @@
 				DEB575132B403CDC007CBC30 /* FeedPresenter.swift in Sources */,
 				DEB575042B3FF823007CBC30 /* FeedImageDataLoader.swift in Sources */,
 				DEB575392B43F574007CBC30 /* ErrorView.swift in Sources */,
+				DEB5753E2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift in Sources */,
 				DEB575192B4052FC007CBC30 /* FeedViewModel.swift in Sources */,
 				DEB5751F2B42EDE9007CBC30 /* UITableView+Dequeueing.swift in Sources */,
 				DEB575172B4052CF007CBC30 /* FeedLoadingViewModel.swift in Sources */,
