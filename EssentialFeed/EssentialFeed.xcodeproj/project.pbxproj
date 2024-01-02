@@ -89,6 +89,7 @@
 		DEB575552B440758007CBC30 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575542B440758007CBC30 /* FeedErrorViewModel.swift */; };
 		DEB575582B440977007CBC30 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5752C2B430475007CBC30 /* FeedLocalizationTests.swift */; };
 		DEB5755A2B4409B7007CBC30 /* FeedImagePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575592B4409B7007CBC30 /* FeedImagePresenterTests.swift */; };
+		DEB5755C2B445D47007CBC30 /* FeedImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5755B2B445D47007CBC30 /* FeedImagePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +212,7 @@
 		DEB575522B44071D007CBC30 /* FeedLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoadingViewModel.swift; sourceTree = "<group>"; };
 		DEB575542B440758007CBC30 /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
 		DEB575592B4409B7007CBC30 /* FeedImagePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenterTests.swift; sourceTree = "<group>"; };
+		DEB5755B2B445D47007CBC30 /* FeedImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -563,6 +565,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB5754B2B440598007CBC30 /* FeedPresenter.swift */,
+				DEB5755B2B445D47007CBC30 /* FeedImagePresenter.swift */,
 				DEB575502B4406B5007CBC30 /* FeedViewModel.swift */,
 				DEB575522B44071D007CBC30 /* FeedLoadingViewModel.swift */,
 				DEB575542B440758007CBC30 /* FeedErrorViewModel.swift */,
@@ -841,6 +844,7 @@
 				DE7C26C22B3122AC00E6B61A /* CoreDataFeedStore.swift in Sources */,
 				DEB575552B440758007CBC30 /* FeedErrorViewModel.swift in Sources */,
 				DEB575532B44071D007CBC30 /* FeedLoadingViewModel.swift in Sources */,
+				DEB5755C2B445D47007CBC30 /* FeedImagePresenter.swift in Sources */,
 				DE7C26CE2B316C4300E6B61A /* ManagedFeedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
