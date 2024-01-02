@@ -85,6 +85,7 @@
 		DEB575392B43F574007CBC30 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575382B43F574007CBC30 /* ErrorView.swift */; };
 		DEB5753C2B43F70C007CBC30 /* FeedErrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753B2B43F70C007CBC30 /* FeedErrorViewModel.swift */; };
 		DEB5753E2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753D2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift */; };
+		DEB575402B43F978007CBC30 /* FeedPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5753F2B43F978007CBC30 /* FeedPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +206,7 @@
 		DEB575382B43F574007CBC30 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		DEB5753B2B43F70C007CBC30 /* FeedErrorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedErrorViewModel.swift; sourceTree = "<group>"; };
 		DEB5753D2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
+		DEB5753F2B43F978007CBC30 /* FeedPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -550,6 +552,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB5752C2B430475007CBC30 /* FeedLocalizationTests.swift */,
+				DEB5753F2B43F978007CBC30 /* FeedPresenterTests.swift */,
 			);
 			path = "Feed Presentation";
 			sourceTree = "<group>";
@@ -899,6 +902,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB575402B43F978007CBC30 /* FeedPresenterTests.swift in Sources */,
 				DEB574DD2B3A9699007CBC30 /* FeedUIIntegrationTests.swift in Sources */,
 				DEB575002B3FF5CD007CBC30 /* FeedUIIntegrationTests+Assertions.swift in Sources */,
 				DEB5752D2B430475007CBC30 /* FeedLocalizationTests.swift in Sources */,
