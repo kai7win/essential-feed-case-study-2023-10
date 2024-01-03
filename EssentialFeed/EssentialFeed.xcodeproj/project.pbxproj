@@ -89,6 +89,7 @@
 		DEB5755C2B445D47007CBC30 /* FeedImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5755B2B445D47007CBC30 /* FeedImagePresenter.swift */; };
 		DEB5755E2B445D91007CBC30 /* FeedImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB5755D2B445D91007CBC30 /* FeedImageViewModel.swift */; };
 		DEB5755F2B44F2EB007CBC30 /* FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575032B3FF823007CBC30 /* FeedImageDataLoader.swift */; };
+		DEB575612B44F399007CBC30 /* RemoteFeedImageDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB575602B44F399007CBC30 /* RemoteFeedImageDataLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +212,7 @@
 		DEB575592B4409B7007CBC30 /* FeedImagePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenterTests.swift; sourceTree = "<group>"; };
 		DEB5755B2B445D47007CBC30 /* FeedImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenter.swift; sourceTree = "<group>"; };
 		DEB5755D2B445D91007CBC30 /* FeedImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageViewModel.swift; sourceTree = "<group>"; };
+		DEB575602B44F399007CBC30 /* RemoteFeedImageDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +345,7 @@
 			children = (
 				DE0659392AE2A40100431F39 /* LoadFeedFromRemoteUseCaseTests.swift */,
 				DE0659432AE38A1400431F39 /* URLSessionHTTPClientTests.swift */,
+				DEB575602B44F399007CBC30 /* RemoteFeedImageDataLoaderTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -839,6 +842,7 @@
 				DE7C26A82B2E5E9900E6B61A /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				DE0659472AE3A93C00431F39 /* trackForMemoryLeaks.swift in Sources */,
 				DEB5754E2B44062E007CBC30 /* FeedPresenterTests.swift in Sources */,
+				DEB575612B44F399007CBC30 /* RemoteFeedImageDataLoaderTests.swift in Sources */,
 				DE06593A2AE2A40100431F39 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				DEB5755A2B4409B7007CBC30 /* FeedImagePresenterTests.swift in Sources */,
 				DE7C26BB2B30FDB300E6B61A /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */,
