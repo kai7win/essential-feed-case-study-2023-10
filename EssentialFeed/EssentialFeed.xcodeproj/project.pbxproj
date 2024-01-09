@@ -103,6 +103,7 @@
 		DEF7C73B2B49A7FF00B43BEB /* CoreDataFeedStore+FeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C73A2B49A7FF00B43BEB /* CoreDataFeedStore+FeedImageDataLoader.swift */; };
 		DEF7C73D2B4A23C700B43BEB /* CoreDataFeedStore+FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C73C2B4A23C700B43BEB /* CoreDataFeedStore+FeedStore.swift */; };
 		DEF7C7872B4D2A7100B43BEB /* FeedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7862B4D2A7100B43BEB /* FeedCache.swift */; };
+		DEF7C7912B4D54DE00B43BEB /* FeedImageDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7902B4D54DE00B43BEB /* FeedImageDataCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,6 +241,7 @@
 		DEF7C73A2B49A7FF00B43BEB /* CoreDataFeedStore+FeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataFeedStore+FeedImageDataLoader.swift"; sourceTree = "<group>"; };
 		DEF7C73C2B4A23C700B43BEB /* CoreDataFeedStore+FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataFeedStore+FeedStore.swift"; sourceTree = "<group>"; };
 		DEF7C7862B4D2A7100B43BEB /* FeedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCache.swift; sourceTree = "<group>"; };
+		DEF7C7902B4D54DE00B43BEB /* FeedImageDataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,6 +353,7 @@
 				DE0659342AE29FC200431F39 /* FeedImage.swift */,
 				DE0659362AE2A00400431F39 /* FeedLoader.swift */,
 				DEB575032B3FF823007CBC30 /* FeedImageDataLoader.swift */,
+				DEF7C7902B4D54DE00B43BEB /* FeedImageDataCache.swift */,
 				DEF7C7862B4D2A7100B43BEB /* FeedCache.swift */,
 			);
 			path = "Feed Feature";
@@ -882,6 +885,7 @@
 				DE2C56712B1C68AE00EC8FEA /* RomoteFeedItem.swift in Sources */,
 				DE06593F2AE3720000431F39 /* HTTPClient.swift in Sources */,
 				DE0659352AE29FC200431F39 /* FeedImage.swift in Sources */,
+				DEF7C7912B4D54DE00B43BEB /* FeedImageDataCache.swift in Sources */,
 				DE89B5FF2B49722D009CC360 /* FeedImageDataStore.swift in Sources */,
 				DEB5754C2B440598007CBC30 /* FeedPresenter.swift in Sources */,
 				DE0659492AE3B18600431F39 /* URLSessionHTTPClient.swift in Sources */,
