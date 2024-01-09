@@ -25,6 +25,7 @@
 		DEF7C77F2B4CE59F00B43BEB /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C77E2B4CE59F00B43BEB /* SharedTestHelpers.swift */; };
 		DEF7C7812B4D204F00B43BEB /* FeedLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7802B4D204F00B43BEB /* FeedLoaderCacheDecoratorTests.swift */; };
 		DEF7C7832B4D254300B43BEB /* FeedLoaderStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7822B4D254300B43BEB /* FeedLoaderStub.swift */; };
+		DEF7C7852B4D267B00B43BEB /* XCTestCase+FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7842B4D267B00B43BEB /* XCTestCase+FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		DEF7C77E2B4CE59F00B43BEB /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		DEF7C7802B4D204F00B43BEB /* FeedLoaderCacheDecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderCacheDecoratorTests.swift; sourceTree = "<group>"; };
 		DEF7C7822B4D254300B43BEB /* FeedLoaderStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderStub.swift; sourceTree = "<group>"; };
+		DEF7C7842B4D267B00B43BEB /* XCTestCase+FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedLoader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			children = (
 				DEF7C77C2B4CE55700B43BEB /* XCTestCase+MemoryLeakTracking.swift */,
 				DEF7C77E2B4CE59F00B43BEB /* SharedTestHelpers.swift */,
+				DEF7C7842B4D267B00B43BEB /* XCTestCase+FeedLoader.swift */,
 				DEF7C7822B4D254300B43BEB /* FeedLoaderStub.swift */,
 			);
 			path = Helpers;
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEF7C77F2B4CE59F00B43BEB /* SharedTestHelpers.swift in Sources */,
+				DEF7C7852B4D267B00B43BEB /* XCTestCase+FeedLoader.swift in Sources */,
 				DEF7C7812B4D204F00B43BEB /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				DEF7C7782B4CDE9600B43BEB /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				DEF7C76C2B4CD4D800B43BEB /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
