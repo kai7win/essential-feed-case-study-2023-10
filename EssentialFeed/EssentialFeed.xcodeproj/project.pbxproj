@@ -91,6 +91,7 @@
 		DEF7C7D12B53F5E400B43BEB /* FeedSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7D02B53F5E400B43BEB /* FeedSnapshotTests.swift */; };
 		DEF7C7D42B5402FE00B43BEB /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7D32B5402FE00B43BEB /* UIImage+TestHelpers.swift */; };
 		DEF7C7D62B5403EB00B43BEB /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7D52B5403EB00B43BEB /* UITableView+HeaderSizing.swift */; };
+		DEF7C7D82B54077200B43BEB /* UIViewController+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7D72B54077200B43BEB /* UIViewController+Snapshot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +217,7 @@
 		DEF7C7D02B53F5E400B43BEB /* FeedSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSnapshotTests.swift; sourceTree = "<group>"; };
 		DEF7C7D32B5402FE00B43BEB /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
 		DEF7C7D52B5403EB00B43BEB /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
+		DEF7C7D72B54077200B43BEB /* UIViewController+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Snapshot.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -568,6 +570,7 @@
 			isa = PBXGroup;
 			children = (
 				DEF7C7D32B5402FE00B43BEB /* UIImage+TestHelpers.swift */,
+				DEF7C7D72B54077200B43BEB /* UIViewController+Snapshot.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -923,6 +926,7 @@
 				DEF7C7D12B53F5E400B43BEB /* FeedSnapshotTests.swift in Sources */,
 				DEB575412B44025B007CBC30 /* FeedCacheTestHelpers.swift in Sources */,
 				DEF7C7D42B5402FE00B43BEB /* UIImage+TestHelpers.swift in Sources */,
+				DEF7C7D82B54077200B43BEB /* UIViewController+Snapshot.swift in Sources */,
 				DEB574DE2B3A9AFB007CBC30 /* trackForMemoryLeaks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
