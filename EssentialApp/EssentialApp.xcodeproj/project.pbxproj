@@ -37,6 +37,7 @@
 		DEF7C7CA2B51541200B43BEB /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7C92B51541200B43BEB /* HTTPClientStub.swift */; };
 		DEF7C7CC2B51547200B43BEB /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7CB2B51547200B43BEB /* InMemoryFeedStore.swift */; };
 		DEF7C7DC2B540F8C00B43BEB /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7DB2B540F8C00B43BEB /* UIView+TestHelpers.swift */; };
+		DEF7C7DE2B54A12800B43BEB /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7DD2B54A12800B43BEB /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		DEF7C7C92B51541200B43BEB /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		DEF7C7CB2B51547200B43BEB /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 		DEF7C7DB2B540F8C00B43BEB /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
+		DEF7C7DD2B54A12800B43BEB /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				DEF7C7AC2B4F5F4400B43BEB /* FeedLoaderPresentationAdapter.swift */,
 				DEF7C7A92B4F5F4400B43BEB /* FeedImageDataLoaderPresentationAdapter.swift */,
 				DEF7C7A72B4F5F4400B43BEB /* WeakRefVirtualProxy.swift */,
+				DEF7C7DD2B54A12800B43BEB /* CombineHelpers.swift */,
 				DEF7C7532B4CD2E000B43BEB /* Assets.xcassets */,
 				DEF7C7552B4CD2E000B43BEB /* LaunchScreen.storyboard */,
 				DEF7C7582B4CD2E000B43BEB /* Info.plist */,
@@ -304,6 +307,7 @@
 				DEF7C7AF2B4F5F4400B43BEB /* FeedLoaderPresentationAdapter.swift in Sources */,
 				DEF7C7B02B4F5F4400B43BEB /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				DEF7C7B22B4F5F4400B43BEB /* WeakRefVirtualProxy.swift in Sources */,
+				DEF7C7DE2B54A12800B43BEB /* CombineHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
