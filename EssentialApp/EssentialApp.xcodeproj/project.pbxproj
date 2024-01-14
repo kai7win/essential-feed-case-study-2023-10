@@ -49,6 +49,7 @@
 		DEF7C7C82B50ADEB00B43BEB /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7C72B50ADEB00B43BEB /* FeedAcceptanceTests.swift */; };
 		DEF7C7CA2B51541200B43BEB /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7C92B51541200B43BEB /* HTTPClientStub.swift */; };
 		DEF7C7CC2B51547200B43BEB /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7CB2B51547200B43BEB /* InMemoryFeedStore.swift */; };
+		DEF7C7DC2B540F8C00B43BEB /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7DB2B540F8C00B43BEB /* UIView+TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		DEF7C7C72B50ADEB00B43BEB /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		DEF7C7C92B51541200B43BEB /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		DEF7C7CB2B51547200B43BEB /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		DEF7C7DB2B540F8C00B43BEB /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				DEF7C7B92B4F600300B43BEB /* UIRefreshControl+TestHelpers.swift */,
 				DEF7C7B52B4F600300B43BEB /* UIButton+TestHelpers.swift */,
 				DEF7C7B62B4F600300B43BEB /* UIControl+TestHelpers.swift */,
+				DEF7C7DB2B540F8C00B43BEB /* UIView+TestHelpers.swift */,
 				DEF7C77C2B4CE55700B43BEB /* XCTestCase+MemoryLeakTracking.swift */,
 				DEF7C77E2B4CE59F00B43BEB /* SharedTestHelpers.swift */,
 				DEF7C7842B4D267B00B43BEB /* XCTestCase+FeedLoader.swift */,
@@ -370,6 +373,7 @@
 				DEF7C7782B4CDE9600B43BEB /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				DEF7C7CA2B51541200B43BEB /* HTTPClientStub.swift in Sources */,
 				DEF7C7C32B4F600300B43BEB /* FeedUIIntegrationTests+Localization.swift in Sources */,
+				DEF7C7DC2B540F8C00B43BEB /* UIView+TestHelpers.swift in Sources */,
 				DEF7C76C2B4CD4D800B43BEB /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				DEF7C7C02B4F600300B43BEB /* UIButton+TestHelpers.swift in Sources */,
 				DEF7C7C82B50ADEB00B43BEB /* FeedAcceptanceTests.swift in Sources */,
