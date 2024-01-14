@@ -1,6 +1,10 @@
 # Essential Feed App – Image Feed Feature
 
-[![Build Status](https://travis-ci.com/essentialdevelopercom/essential-feed-case-study.svg?branch=master)](https://travis-ci.com/essentialdevelopercom/essential-feed-case-study)
+![](https://github.com/essentialdevelopercom/essential-feed-case-study/workflows/CI-iOS/badge.svg)
+
+![](https://github.com/essentialdevelopercom/essential-feed-case-study/workflows/CI-macOS/badge.svg)
+
+![](https://github.com/essentialdevelopercom/essential-feed-case-study/workflows/Deploy/badge.svg)
 
 ## BDD Specs
 
@@ -173,6 +177,21 @@ Given the customer doesn't have connectivity
 
 ---
 
+### Cache Feed Image Data Use Case
+
+#### Data:
+- Image Data
+
+#### Primary course (happy path):
+1. Execute "Save Image Data" command with above data.
+2. System caches image data.
+3. System delivers success message.
+
+#### Saving error course (sad path):
+1. System delivers error.
+
+---
+
 ## Flowchart
 
 ![Feed Loading Feature](feed_flowchart.png)
@@ -190,7 +209,7 @@ Given the customer doesn't have connectivity
 | `id`          | `UUID`              |
 | `description` | `String` (optional) |
 | `location`    | `String` (optional) |
-| `url`         | `URL`               |
+| `url`            | `URL`               |
 
 ### Payload contract
 
