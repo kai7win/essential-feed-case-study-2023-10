@@ -98,6 +98,7 @@
 		DEF7C7CB2B51547200B43BEB /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 		DEF7C7DB2B540F8C00B43BEB /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 		DEF7C7DD2B54A12800B43BEB /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
+		DEF7C7FA2B55EC1F00B43BEB /* EssentialApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialApp.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 		DEF7C73E2B4CD2DE00B43BEB = {
 			isa = PBXGroup;
 			children = (
+				DEF7C7FA2B55EC1F00B43BEB /* EssentialApp.xctestplan */,
 				DEF7C7492B4CD2DE00B43BEB /* EssentialApp */,
 				DEF7C7632B4CD37D00B43BEB /* EssentialAppTests */,
 				DEF7C7482B4CD2DE00B43BEB /* Products */,
