@@ -29,7 +29,7 @@ final class LoadResourcePresentationAdapter<Resource, View: ResourceView> {
                     case .finished: break
                         
                     case let .failure(error):
-                        self?.presenter?.didFinishLoadingFeed(with: error)
+                        self?.presenter?.didFinishLoading(with: error)
                     }
                 }, receiveValue: { [weak self] resource in
                     self?.presenter?.didFinishLoading(with: resource)
@@ -40,5 +40,16 @@ final class LoadResourcePresentationAdapter<Resource, View: ResourceView> {
 extension LoadResourcePresentationAdapter: FeedViewControllerDelegate {
     func didRequestFeedRefresh() {
         loadResource()
+    }
+}
+
+extension LoadResourcePresentationAdapter: FeedImageCellControllerDelegate {
+    func didRequestImage() {
+        loadResource()
+    }
+    
+    func didCancelImageRequest() {
+        cancellable?.cancel()
+        cancellable = nil
     }
 }
