@@ -547,8 +547,8 @@
 			children = (
 				DEB5754B2B440598007CBC30 /* FeedPresenter.swift */,
 				DEB5755B2B445D47007CBC30 /* FeedImagePresenter.swift */,
-				DEB575502B4406B5007CBC30 /* FeedViewModel.swift */,
 				DEB5755D2B445D91007CBC30 /* FeedImageViewModel.swift */,
+				DEB575502B4406B5007CBC30 /* FeedViewModel.swift */,
 				DEB575472B44046B007CBC30 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
