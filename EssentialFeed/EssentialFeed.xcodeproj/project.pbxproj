@@ -96,6 +96,7 @@
 		DEF7C8052B564B8E00B43BEB /* LoadResourcePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C8042B564B8E00B43BEB /* LoadResourcePresenterTests.swift */; };
 		DEF7C8082B56514000B43BEB /* Shared.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C80A2B56514000B43BEB /* Shared.strings */; };
 		DEF7C80E2B56522100B43BEB /* SharedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C80D2B56522100B43BEB /* SharedLocalizationTests.swift */; };
+		DEF7C8102B56562E00B43BEB /* SharedLocalizationTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C80F2B56562E00B43BEB /* SharedLocalizationTestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +229,7 @@
 		DEF7C80B2B56514100B43BEB /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Shared.strings; sourceTree = "<group>"; };
 		DEF7C80C2B56514200B43BEB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Shared.strings"; sourceTree = "<group>"; };
 		DEF7C80D2B56522100B43BEB /* SharedLocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedLocalizationTests.swift; sourceTree = "<group>"; };
+		DEF7C80F2B56562E00B43BEB /* SharedLocalizationTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedLocalizationTestHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +379,7 @@
 				DE0659462AE3A93C00431F39 /* trackForMemoryLeaks.swift */,
 				DE2C56762B1C6EBE00EC8FEA /* FeedStoreSpy.swift */,
 				DE7C26A92B2E6A0500E6B61A /* SharedTestHelpers.swift */,
+				DEF7C80F2B56562E00B43BEB /* SharedLocalizationTestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -934,6 +937,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7C26A82B2E5E9900E6B61A /* ValidateFeedCacheUseCaseTests.swift in Sources */,
+				DEF7C8102B56562E00B43BEB /* SharedLocalizationTestHelpers.swift in Sources */,
 				DE89B5F92B482541009CC360 /* URLProtocolStub.swift in Sources */,
 				DE0659472AE3A93C00431F39 /* trackForMemoryLeaks.swift in Sources */,
 				DEF7C7F42B5545B400B43BEB /* FeedItemsMapperTests.swift in Sources */,
