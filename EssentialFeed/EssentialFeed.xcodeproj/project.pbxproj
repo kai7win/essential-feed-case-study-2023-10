@@ -122,6 +122,7 @@
 		DEF7C8642B5898F000B43BEB /* ImageCommentsSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C8632B5898F000B43BEB /* ImageCommentsSnapshotTests.swift */; };
 		DEF7C86D2B5899A100B43BEB /* IMAGE_COMMENTS_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C86B2B5899A100B43BEB /* IMAGE_COMMENTS_dark.png */; };
 		DEF7C86E2B5899A100B43BEB /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C86C2B5899A100B43BEB /* IMAGE_COMMENTS_light.png */; };
+		DEF7C8702B5C96B100B43BEB /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C86F2B5C96B100B43BEB /* CellController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +283,7 @@
 		DEF7C8632B5898F000B43BEB /* ImageCommentsSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentsSnapshotTests.swift; sourceTree = "<group>"; };
 		DEF7C86B2B5899A100B43BEB /* IMAGE_COMMENTS_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_dark.png; sourceTree = "<group>"; };
 		DEF7C86C2B5899A100B43BEB /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
+		DEF7C86F2B5C96B100B43BEB /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -767,6 +769,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB574DF2B3B7E32007CBC30 /* ListViewController.swift */,
+				DEF7C86F2B5C96B100B43BEB /* CellController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1213,6 +1216,7 @@
 				DEF7C7D62B5403EB00B43BEB /* UITableView+HeaderSizing.swift in Sources */,
 				DEF7C85D2B58980900B43BEB /* ImageCommentCell.swift in Sources */,
 				DEB575392B43F574007CBC30 /* ErrorView.swift in Sources */,
+				DEF7C8702B5C96B100B43BEB /* CellController.swift in Sources */,
 				DEB5753E2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift in Sources */,
 				DEB5751F2B42EDE9007CBC30 /* UITableView+Dequeueing.swift in Sources */,
 				DEB574E42B3E3092007CBC30 /* UIView+Shimmering.swift in Sources */,
