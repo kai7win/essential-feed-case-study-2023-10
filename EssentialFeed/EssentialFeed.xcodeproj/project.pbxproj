@@ -126,6 +126,7 @@
 		DEF7C8722B5E029800B43BEB /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C8712B5E029700B43BEB /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */; };
 		DEF7C8742B5E02B800B43BEB /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C8732B5E02B800B43BEB /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */; };
 		DEF7C8762B5E02D100B43BEB /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C8752B5E02D100B43BEB /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */; };
+		DEF7C8782B5E0A2D00B43BEB /* UIView+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C8772B5E0A2D00B43BEB /* UIView+Container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,6 +291,7 @@
 		DEF7C8712B5E029700B43BEB /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 		DEF7C8732B5E02B800B43BEB /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 		DEF7C8752B5E02D100B43BEB /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_CONTENT_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
+		DEF7C8772B5E0A2D00B43BEB /* UIView+Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Container.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -795,6 +797,7 @@
 				DEB5753D2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift */,
 				DEB5751E2B42EDE9007CBC30 /* UITableView+Dequeueing.swift */,
 				DEF7C7D52B5403EB00B43BEB /* UITableView+HeaderSizing.swift */,
+				DEF7C8772B5E0A2D00B43BEB /* UIView+Container.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1227,6 +1230,7 @@
 				DEF7C7D62B5403EB00B43BEB /* UITableView+HeaderSizing.swift in Sources */,
 				DEF7C85D2B58980900B43BEB /* ImageCommentCell.swift in Sources */,
 				DEB575392B43F574007CBC30 /* ErrorView.swift in Sources */,
+				DEF7C8782B5E0A2D00B43BEB /* UIView+Container.swift in Sources */,
 				DEF7C8702B5C96B100B43BEB /* CellController.swift in Sources */,
 				DEB5753E2B43F76F007CBC30 /* UIRefreshControl+Helpers.swift in Sources */,
 				DEB5751F2B42EDE9007CBC30 /* UITableView+Dequeueing.swift in Sources */,
