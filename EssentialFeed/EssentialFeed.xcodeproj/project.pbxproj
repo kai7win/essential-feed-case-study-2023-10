@@ -774,8 +774,8 @@
 		DEF7C84A2B5747C400B43BEB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DEB574DF2B3B7E32007CBC30 /* ListViewController.swift */,
 				DEF7C86F2B5C96B100B43BEB /* CellController.swift */,
+				DEB574DF2B3B7E32007CBC30 /* ListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
