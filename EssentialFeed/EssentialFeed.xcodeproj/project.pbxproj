@@ -138,6 +138,7 @@
 		DEF7C8BE2B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C8BB2B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png */; };
 		DEF7C8BF2B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C8BC2B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_dark.png */; };
 		DEF7C8C02B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_light.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF7C8BD2B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_light.png */; };
+		DEF7C8C22B5F935000B43BEB /* Paginated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C8C12B5F935000B43BEB /* Paginated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -314,6 +315,7 @@
 		DEF7C8BB2B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 		DEF7C8BC2B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_LOAD_MORE_ERROR_dark.png; sourceTree = "<group>"; };
 		DEF7C8BD2B5F92E700B43BEB /* FEED_WITH_LOAD_MORE_ERROR_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_LOAD_MORE_ERROR_light.png; sourceTree = "<group>"; };
+		DEF7C8C12B5F935000B43BEB /* Paginated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -680,6 +682,7 @@
 			isa = PBXGroup;
 			children = (
 				DE06593E2AE3720000431F39 /* HTTPClient.swift */,
+				DEF7C8C12B5F935000B43BEB /* Paginated.swift */,
 			);
 			path = "Shared API";
 			sourceTree = "<group>";
@@ -1174,6 +1177,7 @@
 				DEF7C8A62B5E81B300B43BEB /* ImageCommentsEndpoint.swift in Sources */,
 				DEF7C8162B56660700B43BEB /* ResourceErrorView.swift in Sources */,
 				DEF7C7FD2B55F14900B43BEB /* FeedImageDataMapper.swift in Sources */,
+				DEF7C8C22B5F935000B43BEB /* Paginated.swift in Sources */,
 				DEB5755E2B445D91007CBC30 /* FeedImageViewModel.swift in Sources */,
 				DEF7C8A42B5E819800B43BEB /* FeedEndpoint.swift in Sources */,
 				DE7C26AF2B2E8D2D00E6B61A /* FeedCachePolicy.swift in Sources */,
