@@ -38,6 +38,7 @@
 		DEF7C7DE2B54A12800B43BEB /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C7DD2B54A12800B43BEB /* CombineHelpers.swift */; };
 		DEF7C8A02B5E77D600B43BEB /* CommentsUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C89F2B5E77D600B43BEB /* CommentsUIIntegrationTests.swift */; };
 		DEF7C8A22B5E77F300B43BEB /* CommentsUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C8A12B5E77F300B43BEB /* CommentsUIComposer.swift */; };
+		DEF7C8C42B61C64600B43BEB /* NullStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7C8C32B61C64600B43BEB /* NullStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		DEF7C8AC2B5F294400B43BEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DEF7C8AD2B5F297500B43BEB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		DEF7C8AE2B5F298500B43BEB /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DEF7C8C32B61C64600B43BEB /* NullStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				DEF7C74A2B4CD2DE00B43BEB /* AppDelegate.swift */,
 				DEF7C74C2B4CD2DE00B43BEB /* SceneDelegate.swift */,
+				DEF7C8C32B61C64600B43BEB /* NullStore.swift */,
 				DEF7C7AA2B4F5F4400B43BEB /* FeedUIComposer.swift */,
 				DEF7C7AB2B4F5F4400B43BEB /* FeedViewAdapter.swift */,
 				DEF7C7AC2B4F5F4400B43BEB /* LoadResourcePresentationAdapter.swift */,
@@ -310,6 +313,7 @@
 				DEF7C74B2B4CD2DE00B43BEB /* AppDelegate.swift in Sources */,
 				DEF7C7AD2B4F5F4400B43BEB /* FeedUIComposer.swift in Sources */,
 				DEF7C7B12B4F5F4400B43BEB /* FeedViewAdapter.swift in Sources */,
+				DEF7C8C42B61C64600B43BEB /* NullStore.swift in Sources */,
 				DEF7C74D2B4CD2DE00B43BEB /* SceneDelegate.swift in Sources */,
 				DEF7C7AF2B4F5F4400B43BEB /* LoadResourcePresentationAdapter.swift in Sources */,
 				DEF7C7B22B4F5F4400B43BEB /* WeakRefVirtualProxy.swift in Sources */,
