@@ -12,7 +12,6 @@ import Combine
 import EssentialFeed
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-    
     var window: UIWindow?
     
     private lazy var httpClient: HTTPClient = {
@@ -20,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }()
     
     private lazy var logger = Logger(subsystem: "com.essentialdeveloper.EssentialAppCaseStudy", category: "main")
-        
+    
     private lazy var store: FeedStore & FeedImageDataStore = {
         do {
             return try CoreDataFeedStore(
@@ -33,19 +32,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             return NullStore()
         }
     }()
-    
+
     private lazy var localFeedLoader: LocalFeedLoader = {
         LocalFeedLoader(store: store, currentDate: Date.init)
     }()
     
     private lazy var baseURL = URL(string: "https://ile-api.essentialdeveloper.com/essential-feed")!
-    
+
     private lazy var navigationController = UINavigationController(
         rootViewController: FeedUIComposer.feedComposedWith(
             feedLoader: makeRemoteFeedLoaderWithLocalFallback,
             imageLoader: makeLocalImageLoaderWithRemoteFallback,
             selection: showComments))
-    
+
     convenience init(httpClient: HTTPClient, store: FeedStore & FeedImageDataStore) {
         self.init()
         self.httpClient = httpClient
@@ -54,13 +53,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let scene = (scene as? UIWindowScene) else { return }
-        
+    
         window = UIWindow(windowScene: scene)
         configureWindow()
     }
     
     func configureWindow() {
-        
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
@@ -70,7 +68,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func showComments(for image: FeedImage) {
-        let url = baseURL.appendingPathComponent("/v1/image/\(image.id)/comments")
+        let url = ImageCommentsEndpoint.get(image.id).url(baseURL: baseURL)
         let comments = CommentsUIComposer.commentsComposedWith(commentsLoader: makeRemoteCommentsLoader(url: url))
         navigationController.pushViewController(comments, animated: true)
     }
@@ -91,7 +89,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             .map(makeFirstPage)
             .eraseToAnyPublisher()
     }
-    
+        
     private func makeRemoteLoadMoreLoader(last: FeedImage?) -> AnyPublisher<Paginated<FeedImage>, Error> {
         localFeedLoader.loadPublisher()
             .zip(makeRemoteFeedLoader(after: last))
@@ -121,9 +119,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func makeLocalImageLoaderWithRemoteFallback(url: URL) -> FeedImageDataLoader.Publisher {
-        
         let localImageLoader = LocalFeedImageDataLoader(store: store)
-        
+
         return localImageLoader
             .loadImageDataPublisher(from: url)
             .fallback(to: { [httpClient] in
@@ -133,5 +130,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     .caching(to: localImageLoader, using: url)
             })
     }
-    
 }
+
