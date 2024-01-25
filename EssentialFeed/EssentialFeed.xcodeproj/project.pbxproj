@@ -465,7 +465,6 @@
 			isa = PBXGroup;
 			children = (
 				DE0659462AE3A93C00431F39 /* trackForMemoryLeaks.swift */,
-				DE2C56762B1C6EBE00EC8FEA /* FeedStoreSpy.swift */,
 				DE7C26A92B2E6A0500E6B61A /* SharedTestHelpers.swift */,
 				DEF7C80F2B56562E00B43BEB /* SharedLocalizationTestHelpers.swift */,
 			);
@@ -513,6 +512,7 @@
 		DE7C26AB2B2E6A2500E6B61A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DE2C56762B1C6EBE00EC8FEA /* FeedStoreSpy.swift */,
 				DE7C26AC2B2E6A3100E6B61A /* FeedCacheTestHelpers.swift */,
 				DE89B6002B497618009CC360 /* FeedImageDataStoreSpy.swift */,
 			);
